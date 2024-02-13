@@ -1,1 +1,9 @@
 dataupload/__pycache__/urls.cpython-311.pyc
+db.sqlite3
+gcm-diagnose.log
+mydatabase
+manage.py
+*.pyc
+dataupload/asgi.py
+dataupload/wsgi.py
+migrations/*.*
