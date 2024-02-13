@@ -1,4 +1,4 @@
-dataupload/__pycache__/urls.cpython-311.pyc
+dataupload/__pycache__/*.*
 db.sqlite3
 gcm-diagnose.log
 mydatabase
