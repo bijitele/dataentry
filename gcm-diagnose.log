@@ -1,0 +1,175 @@
+﻿Diagnose log at 2024-02-06T16:37:55Z
+
+AppPath: e:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: E:\Program Files\Git\mingw64\bin\
+Version: 2.4.1
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+PROCESSOR_ARCHITEW6432=AMD64
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-LEB1UH8
+GIT_TRACE2_PARENT_SID=6a0e91db-c55a-41b8-a7a9-8f165d7b7607
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+DB2INSTANCE=DB2
+HOMEPATH=\Users\aanxa
+CLASSPATH=.;C:\PROGRA~1\IBM\SQLLIB\java\db2java.zip;C:\PROGRA~1\IBM\SQLLIB\java\db2jcc4.jar;C:\PROGRA~1\IBM\SQLLIB\java\sqlj4.zip;C:\PROGRA~1\IBM\SQLLIB\java\db2jcc_license_cisuz.jar;C:\PROGRA~1\IBM\SQLLIB\java\db2jcc_license_cu.jar;C:\PROGRA~1\IBM\SQLLIB\bin;C:\PROGRA~1\IBM\SQLLIB\java\common.jar
+LANG=en_US.UTF-8
+INCLUDE=C:\PROGRA~1\IBM\SQLLIB\INCLUDE;C:\PROGRA~1\IBM\SQLLIB\LIB
+PROCESSOR_REVISION=9e09
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+TMP=C:\Users\aanxa\AppData\Local\Temp
+TEMP=C:\Users\aanxa\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\aanxa\AppData\Local
+PUBLIC=C:\Users\Public
+OneDrive=C:\Users\aanxa\OneDrive
+LIB=;C:\PROGRA~1\IBM\SQLLIB\LIB
+COLORTERM=truecolor
+USERDOMAIN=DESKTOP-LEB1UH8
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\aanxa\OneDrive\Desktop\scrcpy-win64-v2.3.1;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;E:\dev\bin\;C:\Users\aanxa\AppData\Local\Programs\Python\Python311;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;E:\Program Files\Git\cmd;C:\Users\aanxa\AppData\Local\Microsoft\WindowsApps;C:\Users\aanxa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aanxa\AppData\Local\Programs\Python\Python311;
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=6
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+PROMPT=$P$G
+TERM_PROGRAM_VERSION=1.85.2
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+NUMBER_OF_PROCESSORS=4
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_8000_RLFJDCJOFBTRUCME
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+ProgramFiles=C:\Program Files (x86)
+SystemRoot=C:\WINDOWS
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+SESSIONNAME=Console
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\DESKTOP-LEB1UH8
+USERPROFILE=C:\Users\aanxa
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-LEB1UH8
+APPDATA=C:\Users\aanxa\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=aanxa
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+OneDriveConsumer=C:\Users\aanxa\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\aanxa\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\aanxa\AppData\Local\Temp\344047dda19b91e189b6b5ce'... OK
+Reading from temporary file 'C:\Users\aanxa\AppData\Local\Temp\344047dda19b91e189b6b5ce'... OK
+Deleting temporary file 'C:\Users\aanxa\AppData\Local\Temp\344047dda19b91e189b6b5ce'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\aanxa
+UserDataDirectoryPath: C:\Users\aanxa\.gcm
+GetCurrentDirectory(): E:\dev\DataEntry\dataupload
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:63937/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.43.0.windows.1'
+Locating current repository... OK
+Git repository at 'E:/dev/DataEntry/dataupload/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:E:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:E:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:E:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:E:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:E:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:E:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:E:/Program Files/Git/etc/gitconfig	http.sslcainfo=E:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:E:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:E:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:E:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:E:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:E:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:E:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:E:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/bijitele/dataupload.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\aanxa\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\aanxa\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
