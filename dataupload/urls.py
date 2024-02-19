@@ -33,7 +33,7 @@ urlpatterns = [
     path("dataentryapp/", include("dataentryapp.urls")),
     #path("accounts", LandingPageView.as_view()),
     path("accounts/", include("django.contrib.auth.urls")),
-    #path('signup/', SignUpView.as_view(), name='signup'),
+    path('signup/', SignUpView.as_view(), name='signup'),
     #path('reset-password/', PasswordResetView.as_view(), name='reset_password'),
     #path('password-reset-done/', PasswordResetDoneView.as_view(), name='password_reset_done'),
     #path('password-reset-confirm/<uidb64>/<token>/', PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
