@@ -58,7 +58,7 @@ ROOT_URLCONF = 'dataupload.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "dataupload/templates"],
+        'DIRS': [BASE_DIR / "dataupload/templates", BASE_DIR / "dataentryapp/templates/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
