@@ -7,7 +7,8 @@ from django.contrib.auth.forms import UserCreationForm
 class CitizenForm(forms.ModelForm):
     class Meta:
         model = Citizen
-        fields = "__all__"  
+        fields = "__all__"
+        exclude = ("slug", )
 
 class CertificateForm(forms.ModelForm):
     class Meta:

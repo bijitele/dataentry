@@ -1,5 +1,8 @@
 dataupload/__pycache__/*.*
 db.sqlite3
+*.lib  
+mydataba__
+xy.txt
 gcm-diagnose.log
 mydatabase
 manage.py
@@ -7,3 +10,4 @@ manage.py
 dataupload/asgi.py
 dataupload/wsgi.py
 migrations/*.*
+1.5.0.0

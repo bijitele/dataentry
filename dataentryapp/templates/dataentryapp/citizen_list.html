@@ -1,0 +1,23 @@
+
+{%extends 'base.html'%}
+
+{%block content%}
+
+<div class="center">
+	<h2>Citizen Data List</h2>
+	{% if citizenlist %}
+	<ul class="citizen">
+		{% for citizen in citizenlist %}
+			<li><a href="{% url 'citizen_detail' citizen.slug %}" class="">{{ citizen}}</a> 
+				 <div  class="task-controls">
+				 	<a href="#"><i class="bi bi-trash"></i> </a>
+					<a href="#"><i class="bi bi-pencil-square"></i></a>
+		         </div>
+		    </li>
+		{% endfor %}
+	{% else %}
+		<p> No Data So Far!</p>
+	{% endif %}
+	</ul>
+</div>
+{%endblock content%}

@@ -77,24 +77,24 @@ WSGI_APPLICATION = 'dataupload.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase',
-    }
-}
-
 #DATABASES = {
 #    'default': {
-#        'ENGINE': 'ibm_db_django',
-#        'NAME'     : 'database',
-#        'USER'     : 'aanxa',
-#        'PASSWORD' : 'sach',
-#        'HOST'     : 'localhost',
-#        'PORT'     : '50000',
-#        'PCONNECT' :  True,      #Optional property. It is true by default
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': 'mydatabase',
 #    }
 #}
+
+DATABASES = {
+    'default': {
+        'ENGINE'   : 'ibm_db_django',
+        'NAME'     : 'mydb',
+        'USER'     : 'aanxa',
+        'PASSWORD' : 'sach',
+        'HOST'     : 'DESKTOP-LEB1UH8',
+        'PORT'     : '50000',
+        'PCONNECT' :  True,      #Optional property. It is true by default
+    }
+}
 
 
 # Password validation
@@ -131,7 +131,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)

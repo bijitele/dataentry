@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+from django.utils.text import slugify
 
 # Create your models here.
 class Citizen(models.Model):
@@ -21,11 +22,14 @@ class Citizen(models.Model):
     address1 = models.CharField(max_length = 50)
     address2 = models.CharField(max_length = 50)
     pincode = models.CharField(max_length = 50)
+    slug = models.SlugField()
 
     def __str__(self):
         return self.unique_govt_id
 
-
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.unique_govt_id)
+        super(Citizen, self).save(*args, **kwargs)
 
 class Certificate(models.Model):
     CERT_TYPES = [
